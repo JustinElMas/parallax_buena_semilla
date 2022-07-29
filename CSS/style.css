@@ -244,7 +244,7 @@ article .categorias a.activado {
 .slider {
     display: flex;
     height: 500px;
-    width: 900%;
+    width: 1000%;
     margin-left: -100%;
 }
 
@@ -312,24 +312,56 @@ article .categorias a.activado {
     margin-top: 2rem;
 }
 
-.container-header{ 
+/* cabecera truerty */
+
+.entity-pocoyo {
+    margin: 0.5rem 0 3.5rem 0;
+}
+
+.mylist {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.entity-pocoyo ul li {
+    text-align: center;
+    list-style: none;
+    border-left: 0.3rem solid #000;
+    margin: 0 0.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.entity-pocoyo p {
+    font-size: 0.9rem;
+    font-weight: var(--font-blood);
+    margin-bottom: 0rem;
+    font-style: italic;
+}
+
+.cabecera-lol {
+    background-image: url(../ASSETS/logos/elmelo.logo.PNG);
     width: 100%;
-    height: 85vh;
-    background-image: url(../ASSETS/logos/moti-pocoyo.PNG);
+    height: 73vh;
     background-repeat: no-repeat;
-    background-position: center center;
     background-size: contain;
+    background-position: center;
 }
 
-.container-header .fondo {
+.cabecera-lol .fondo {
     width: 0%;
-    height: 100%;
+    height: 103%;
     max-width: 100%;
-    background-image: url(../ASSETS/dea28d59978a35db7adf9e04f87327db1d7905c5_hq.gif);
-    background-position: fixed;
+    background-image: url(../ASSETS/panditas_walk.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: auto;
 }
 
-.container-header .text-1{
+/* .container-header .text-1{
     width: calc(100vw - 20px);
     height: 100vh;
     font-size: 3.2rem;
@@ -344,7 +376,7 @@ article .categorias a.activado {
 
 .container-header h2{
     margin-top: 0.2rem;
-}
+} */
 
 /* navbar */
 
@@ -359,7 +391,7 @@ article .categorias a.activado {
     display: flex;
     justify-content: center;
     font-family: var(--font-family-phrase);
-    margin-top: -4rem !important;
+    margin-top: -3rem !important;
     margin-bottom: 5rem;
 }
 
@@ -800,16 +832,32 @@ a {
         width: 350px;
         height: 200px;
     }
-    .container-header .fondo { 
-        max-width: 100%;
-        background-position: center center;
-        background-size: cover;
-        background-position-x: center;
-    }
+
     .productos .products .overlay-text {
         font-size: 0.5rem;
     }
-}
+    /* header */
+    .mylist {
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: stretch;
+    }
 
+    .cabecera-lol {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+        background-image: url(../ASSETS/logos/view-movil.PNG);
+    }
+    .cabecera-lol .fondo {
+        background-repeat: no-repeat;
+    }
+    .entity-pocoyo ul li {
+        margin-bottom: 8px;
+    }
+    .entity-pocoyo p {
+        margin-bottom: 5px;
+    }
+}
 
 
