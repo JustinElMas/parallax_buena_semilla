@@ -315,33 +315,31 @@ article .categorias a.activado {
 /* cabecera truerty */
 
 .entity-pocoyo {
-    margin: 0.5rem 0 3.5rem 0;
+    margin: 0.5rem 0 4rem 0;
 }
 
 .mylist {
     display: flex;
     align-items: center;
     align-content: center;
-    flex-wrap: nowrap;
     flex-direction: row;
+    justify-content: center;
 }
 
 .entity-pocoyo ul li {
     text-align: center;
     list-style: none;
-    border-left: 0.3rem solid #000;
-    margin: 0 0.5rem;
+    margin: 0.7rem 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     font-weight: 500;
-}
-.entity-pocoyo p {
-    font-size: 0.9rem;
-    font-weight: var(--font-blood);
-    margin-bottom: 0rem;
-    font-style: italic;
+    letter-spacing: 2px;
+
 }
 
+.entity-pocoyo ul li::before {
+    content: "/";
+}
 .cabecera-lol {
     background-image: url(../ASSETS/logos/elmelo.logo.PNG);
     width: 100%;
