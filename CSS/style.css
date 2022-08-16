@@ -580,6 +580,20 @@ a {
     align-items: center;
 }
 
+/* team pocoyo */
+.team-div {
+    background-color: var(--color-second);
+    border-radius: 20px;
+}
+
+.team-pocoyo{
+    width: 45rem;
+    height: 35rem;
+    border-radius: 20px;
+    border: 0.4rem solid var(--color-secundary);
+
+}
+
 .cita {
     font-size: 1.65rem;
     font-family: var(--font-family-phrase);
@@ -767,7 +781,7 @@ a {
     .menu {
         font-size: 0.8rem;
         margin: 1px;
-        width: 100%;
+        width: 103%;
         margin-top: 0 !important;
     }
     .menu a{
@@ -855,6 +869,14 @@ a {
     }
     .entity-pocoyo p {
         margin-bottom: 5px;
+    }
+
+    .team-div {
+        box-shadow: 0 2px 10px 0px #000;
+    }
+    .team-pocoyo {
+        width: 18rem;
+        height: 18rem;
     }
 }
 
