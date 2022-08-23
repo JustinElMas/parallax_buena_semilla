@@ -244,7 +244,7 @@ article .categorias a.activado {
 .slider {
     display: flex;
     height: 500px;
-    width: 1000%;
+    width: 1200%;
     margin-left: -100%;
 }
 
@@ -289,18 +289,12 @@ article .categorias a.activado {
     margin-top: 0.2rem;
 }
 
-.imglogo a span {
-    font-size: 2.3rem;
+.icon{
+    border-bottom: 0.2rem solid var(--color-fourth);
 }
 
-.imglogo a span:hover {
-    transform: scale(1.4);
-    transition: 0.5s ease;
-}
-
-.imglogo a span::before {
-    content: "|";
-    font-size: 2.5rem;
+.icon img {
+    filter: invert(70%);
 }
 
 #logo1 {
@@ -594,6 +588,33 @@ a {
 
 }
 
+/* team-perfil */ 
+.my-team-perfil{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 100%;
+    background-size: contain;
+    background-position: center center;
+    border: 0.2rem groove var(--color-primary);
+    margin: 0 auto;
+}
+
+.my-team {
+    background: linear-gradient(rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.5), rgba(1, 1, 1, 0.5)),url(../ASSETS/team-pocoyo/IMG-20220811-WA0005.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 55vh;
+    border-radius: 25px;
+}
+
+.text-perfil-team{
+    border-radius: 25px;
+    font-size: 1.1rem;
+    font-weight: var(--font-blood);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--color-primary);
+}
 .cita {
     font-size: 1.65rem;
     font-family: var(--font-family-phrase);
@@ -878,6 +899,8 @@ a {
         width: 18rem;
         height: 18rem;
     }
+    .my-team {
+        background: none;
+        height: 90vh;
+    }
 }
-
-

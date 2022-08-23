@@ -1,0 +1,119 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+body {
+    background-color: #f2f2f2;
+    font-family: monospace;
+}
+
+p {
+    margin-bottom: 1.1rem;
+    line-height: 150%;
+}
+
+main {
+    margin: 1.1rem;
+    max-width: 100.5rem;
+    background-color: #ffebcd;
+    min-height: 80vh;
+    padding: 1.1rem;
+    border-radius: 1.1rem;
+} */
+
+.aviso-cookies {
+    display: none;
+    background-color: #fff;
+    padding: 1rem;
+    width: calc(100% - 2.2rem);
+    max-width: 18.3rem;
+    line-height: 150%;
+    border-radius: 0.6rem;
+    position: fixed;
+    bottom: 1.2rem;
+    left: 1.2rem;
+    z-index: 100;
+    padding-top: 60px;
+    box-shadow: 0 2px 20px 10px rgba(222, 222, 222, 0.5);
+    text-align: center;
+}
+
+.aviso-cookies.activo {
+    display: block;
+}
+
+.aviso-cookies .galleta {
+    max-width: 8.5rem;
+    position: absolute;
+    top: -5.2rem;
+    left: calc(50% - 4.5rem);
+}
+
+.aviso-cookies .titulo,
+.aviso-cookies .parrafo  {
+    margin-bottom: 1.1rem;
+
+}
+
+.aviso-cookies .boton {
+    width: 100%;
+    background: #595959;
+    border: none;
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 0.6rem 1.1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .3s ease all;
+    border-radius: 0.2rem;
+    margin-bottom: 0.6rem;
+    font-size: 0.8rem;
+}
+
+.aviso-cookies .boton:hover {
+    background: #000;
+}
+
+.aviso-cookies .enlace {
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #4dbdff;
+}
+
+.aviso-cookies .enlace:hover {
+    text-decoration: underline;
+}
+
+.fondo-ads-cookies {
+    display: none;
+    background: rgba(0, 0, 0, .25);
+    position: fixed;
+    z-index: 99;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.fondo-ads-cookies.activo {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
