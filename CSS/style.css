@@ -590,8 +590,8 @@ a {
 
 /* team-perfil */ 
 .my-team-perfil{
-    width: 8rem;
-    height: 8rem;
+    width: 6rem;
+    height: 6rem;
     border-radius: 100%;
     background-size: contain;
     background-position: center center;
@@ -604,7 +604,7 @@ a {
     background-position: center center;
     background-size: cover;
     width: 100%;
-    height: 55vh;
+    height: 80vh;
     border-radius: 25px;
 }
 
